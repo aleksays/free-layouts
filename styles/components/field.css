@@ -1,0 +1,15 @@
+.field {
+  height: var(--field-height);
+  border-radius: var(--radius-20);
+  background-color: var(--white-color);
+  padding: 1.6rem;
+  font-size: 1.8rem;
+  min-width: 375px;
+  border: 1px solid transparent;
+  outline: none;
+  transition: border-color 210ms linear;
+}
+
+.field:focus {
+  border-color: var(--accent-color);
+}

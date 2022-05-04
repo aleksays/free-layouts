@@ -1,0 +1,26 @@
+.btn {
+  display: flex;
+  align-items: center;
+  padding: 1.6em;
+  font-size: 1.6rem;
+  height: var(--field-height);
+  border-radius: var(--radius-20);
+  border: none;
+  transition: box-shadow 270ms ease-out;
+  background-color: var(--grey-color);
+  color: var(--primary-color);
+}
+
+.btn:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.24);
+}
+
+.btn--primary {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.btn--accent {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}

@@ -1,0 +1,27 @@
+.content-item--has-gap {
+  padding-left: 4.5rem;
+}
+
+.content-item__title {
+  font-size: 4.3rem;
+  font-weight: 400;
+  margin-bottom: 1.6rem;
+}
+
+.content-item__links {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.content-item__link {
+  display: flex;
+  align-items: center;
+}
+
+.content-item__links-logo {
+  max-width: 100%;
+}
