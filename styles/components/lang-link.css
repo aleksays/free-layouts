@@ -1,0 +1,12 @@
+.lang-link {
+  text-decoration: none;
+  color: var(--grey-color);
+}
+
+.lang-link:hover {
+  text-decoration: underline;
+}
+
+.lang-link--active {
+  color: var(--primary-color);
+}

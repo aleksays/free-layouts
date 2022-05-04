@@ -1,0 +1,12 @@
+.card {
+  background-color: var(--white-color);
+  background-image: var(--card-icon);
+  background-repeat: no-repeat;
+  background-position: 6rem 7rem;
+  padding: calc(7rem * 3.2) 6rem 7rem 6rem;
+  border-radius: var(--radius-50);
+}
+
+.card__title {
+  margin-bottom: 3.5rem;
+}
